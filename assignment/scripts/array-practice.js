@@ -10,7 +10,8 @@ console.log('Animals are: ', animalArray);
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods
 //    Console log your array of foods to the console with a message, 
 //    similar to the example above
-
+let favoriteFoods =['pizza', 'fries', 'pasta', 'sweets']
+console.log('my favorite foods are: ', favoriteFoods);
 
 // Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
@@ -21,7 +22,8 @@ console.log('Number of animals:', numberOfAnimals);
 
 // 2. TODO: Create a variable `numberOfFoods`
 //    Console log to the console the number of foods
-
+let numberOfFoods = favoriteFoods.length
+console.log('Number of foods', numberOfFoods);
 
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -32,11 +34,12 @@ console.log('First animal is', firstAnimal);
 
 // 3.a. TODO: Create a variable `secondAnimal`
 //      Console log the second animal in the array 
-
-
+let secondAnimal = animalArray[1]
+console.log('second animal is', secondAnimal);
 // 3.b. TODO: Create a variable `lastAnimal`
 //      Console log the last animal in the array using it's array index 
-
+let lastAnimal = animalArray[3]
+console.log('last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Update 3.b to use the array length, 
 //      instead of the exact index number of the last item.
@@ -53,7 +56,6 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Create a variable `dessert` and assign it to a new food.
 //      Add the `dessert` at the end of your array & log the array
-
 
 // Example: Add an animal to the beginning using Array.unshift
 let animalToUnshift = 'walrus';
